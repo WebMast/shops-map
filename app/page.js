@@ -8,15 +8,18 @@ const fetchStores = async () => {
             console.error('Failed to fetch stores data');
             return;
         }
-
+        console.log(22222222);
         return await response.json();
     } catch (error){
+        console.log(1111111111);
         console.error(error);
     }
 }
 
 const Home = async () => {
     const shopsList = await fetchStores();
+
+    console.log(shopsList);
 
     return (
         <section className="w-full flex-center flex-col">
