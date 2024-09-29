@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1",
+    "name": "Urban Thread Kyiv Center",
+    "address": "Kyiv, Khreshchatyk St, 22",
+    "coordinates": {
+      "latitude": "50.4501",
+      "longitude": "30.5234"
+    },
+    "shortDescription": "A fashion clothing store in the center of Kyiv.",
+    "description": "A wide range of stylish clothing and accessories for men, women, and children. Our store is known for its unique collections, blending classic and modern fashion. We offer personalized customer service to ensure every client feels special. Located in the heart of Kyiv, we are easily accessible to everyone.",
+    "images": {
+      "mainImg": "AdobeStock_305928424_Preview.jpeg",
+      "secondaryImg": "AdobeStock_143629503_Preview.jpeg",
+      "thirdImg": "AdobeStock_221801829_Preview.jpeg",
+      "fourthImg": "AdobeStock_258986180_Preview.jpeg",
+      "fifthImg": "AdobeStock_276475514_Preview.jpeg"
+    },
+    "phone": "+380441234567",
+    "email": "kyivcenter@fashionstore.com",
+    "schedule": "Mon-Fri: 10:00-19:00, Sat: 11:00-18:00, Sun: Closed",
+    "departments": "Women's Clothing, Men's Clothing, Children's Clothing"
+  },
+  {
+    "id": "2",
+    "name": "Urban Thread Brovary",
+    "address": "Brovary, Nezalezhnosti Blvd, 17",
+    "coordinates": {
+      "latitude": "50.4955",
+      "longitude": "30.7643"
+    },
+    "shortDescription": "A modern clothing store in Brovary.",
+    "description": "Latest fashion trends with collections for all ages and styles. We specialize in contemporary designs that cater to urban lifestyles. Our store features regular seasonal promotions and new arrivals every week. Visit us to refresh your wardrobe with the latest fashion trends.",
+    "images": {
+      "mainImg": "AdobeStock_506100750_Preview.jpeg",
+      "secondaryImg": "AdobeStock_305928424_Preview.jpeg",
+      "thirdImg": "AdobeStock_311228384_Preview.jpeg",
+      "fourthImg": "AdobeStock_409965305_Preview.jpeg",
+      "fifthImg": "AdobeStock_468135134_Preview.jpeg"
+    },
+    "phone": "+380445678901",
+    "email": "brovary@fashionstore.com",
+    "schedule": "Mon-Sat: 09:00-20:00, Sun: 10:00-18:00",
+    "departments": "Women's Clothing, Men's Clothing, Accessories"
+  },
+  {
+    "id": "3",
+    "name": "Urban Thread Irpin",
+    "address": "Irpin, Soborna St, 15",
+    "coordinates": {
+      "latitude": "50.5218",
+      "longitude": "30.2505"
+    },
+    "shortDescription": "Trendy clothing store in Irpin.",
+    "description": "Offering exclusive collections for both formal and casual wear. Our collections are handpicked to suit the tastes of modern urban professionals. With a focus on quality and style, we provide a unique shopping experience. Visit our store in Irpin to discover our latest arrivals and timeless classics.",
+    "images": {
+      "mainImg": "AdobeStock_590768020_Preview.jpeg",
+      "secondaryImg": "AdobeStock_506100750_Preview.jpeg",
+      "thirdImg": "AdobeStock_586080662_Preview.jpeg",
+      "fourthImg": "AdobeStock_592655984_Preview.jpeg",
+      "fifthImg": "AdobeStock_597337883_Preview.jpeg"
+    },
+    "phone": "+380449876543",
+    "email": "irpin@fashionstore.com",
+    "schedule": "Mon-Fri: 10:00-19:00, Sat: 11:00-18:00, Sun: Closed",
+    "departments": "Men's Clothing, Formal Wear, Footwear"
+  },
+  {
+    "id": "4",
+    "name": "Urban Thread Bucha",
+    "address": "Bucha, Vokzalna St, 8",
+    "coordinates": {
+      "latitude": "50.5496",
+      "longitude": "30.2123"
+    },
+    "shortDescription": "Stylish clothing store in Bucha.",
+    "description": "Exclusive women's and children's collections with seasonal offers. Our store in Bucha is a go-to place for fashion-conscious families. We pride ourselves on offering high-quality, trendy clothing at affordable prices. Our friendly staff is always ready to help you find the perfect outfit.",
+    "images": {
+      "mainImg": "AdobeStock_611253355_Preview.jpeg",
+      "secondaryImg": "AdobeStock_600514388_Preview.jpeg",
+      "thirdImg": "AdobeStock_611238910_Preview.jpeg",
+      "fourthImg": "AdobeStock_633098254_Preview.jpeg",
+      "fifthImg": "AdobeStock_637717707_Preview.jpeg"
+    },
+    "phone": "+380448765432",
+    "email": "bucha@fashionstore.com",
+    "schedule": "Mon-Fri: 10:00-19:00, Sat: 11:00-18:00, Sun: Closed",
+    "departments": "Women's Clothing, Children's Clothing, Accessories"
+  },
+  {
+    "id": "5",
+    "name": "Urban Thread Boryspil",
+    "address": "Boryspil, Kyivska St, 33",
+    "coordinates": {
+      "latitude": "50.3526",
+      "longitude": "30.9551"
+    },
+    "shortDescription": "Family-friendly clothing store in Boryspil.",
+    "description": "A wide variety of clothing for all family members, with new arrivals every week. We focus on creating a welcoming atmosphere for families of all sizes. With our affordable prices and quality, we are the favorite shopping destination in Boryspil. Visit us today to explore our latest collections.",
+    "images": {
+      "mainImg": "AdobeStock_714112906_Preview.jpeg",
+      "secondaryImg": "AdobeStock_684131487_Preview.jpeg",
+      "thirdImg": "AdobeStock_692516274_Preview.jpeg",
+      "fourthImg": "AdobeStock_633098254_Preview.jpeg",
+      "fifthImg": "AdobeStock_721740032_Preview.jpeg"
+    },
+    "phone": "+380447654321",
+    "email": "boryspil@fashionstore.com",
+    "schedule": "Mon-Sat: 09:00-20:00, Sun: 10:00-18:00",
+    "departments": "Women's Clothing, Men's Clothing, Children's Clothing"
+  },
+  {
+    "id": "6",
+    "name": "Urban Thread Vyshneve",
+    "address": "Vyshneve, Svobody Ave, 2",
+    "coordinates": {
+      "latitude": "50.3876",
+      "longitude": "30.3705"
+    },
+    "shortDescription": "Casual clothing store in Vyshneve.",
+    "description": "Focus on casual and comfortable clothing with a touch of elegance. Our store features the latest in everyday fashion with styles that match your personality. Whether you are looking for something casual or chic, we have something for everyone. Discover a new level of comfort and style at Urban Thread Vyshneve.",
+    "images": {
+      "mainImg": "AdobeStock_812201537_Preview.jpeg",
+      "secondaryImg": "AdobeStock_751764133_Preview.jpeg",
+      "thirdImg": "AdobeStock_782946686_Preview.jpeg",
+      "fourthImg": "AdobeStock_791610942_Preview.jpeg",
+      "fifthImg": "AdobeStock_893542458_Preview.jpeg"
+    },
+    "phone": "+380446543210",
+    "email": "vyshneve@fashionstore.com",
+    "schedule": "Mon-Fri: 10:00-19:00, Sat: 11:00-18:00, Sun: Closed",
+    "departments": "Casual Wear, Footwear, Accessories"
+  },
+  {
+    "id": "7",
+    "name": "Urban Thread Fastiv",
+    "address": "Fastiv, Heroes' Ave, 6",
+    "coordinates": {
+      "latitude": "50.0783",
+      "longitude": "29.9174"
+    },
+    "shortDescription": "Urban Thread in Fastiv offering urban style clothing.",
+    "description": "Specializing in urban style and comfortable everyday wear. Our Fastiv location offers a unique blend of street fashion with comfort and practicality. We focus on providing the best customer service and fashion-forward collections. Explore our diverse range of products tailored to your urban lifestyle.",
+    "images": {
+      "mainImg": "AdobeStock_846446982_Preview.jpeg",
+      "secondaryImg": "AdobeStock_684131487_Preview.jpeg",
+      "thirdImg": "AdobeStock_692516274_Preview.jpeg",
+      "fourthImg": "AdobeStock_633098254_Preview.jpeg",
+      "fifthImg": "AdobeStock_637717707_Preview.jpeg"
+    },
+    "phone": "+380444321098",
+    "email": "fastiv@fashionstore.com",
+    "schedule": "Mon-Fri: 10:00-19:00, Sat: 11:00-18:00, Sun: Closed",
+    "departments": "Urban Wear, Streetwear, Footwear"
+  },
+  {
+    "id": "8",
+    "name": "Urban Thread Obukhiv",
+    "address": "Obukhiv, Shevchenka St, 19",
+    "coordinates": {
+      "latitude": "50.1065",
+      "longitude": "30.6218"
+    },
+    "shortDescription": "Clothing store with premium collections in Obukhiv.",
+    "description": "Offering premium clothing collections with personalized service. Our store specializes in high-end fashion with an exclusive selection of premium brands. Enjoy a luxurious shopping experience in our elegant store environment. Visit us to explore our latest premium arrivals and seasonal collections.",
+    "images": {
+      "mainImg": "AdobeStock_982229741_Preview.jpeg",
+      "secondaryImg": "AdobeStock_305928424_Preview.jpeg",
+      "thirdImg": "AdobeStock_311228384_Preview.jpeg",
+      "fourthImg": "AdobeStock_258986180_Preview.jpeg",
+      "fifthImg": "AdobeStock_276475514_Preview.jpeg"
+    },
+    "phone": "+380444456789",
+    "email": "obukhiv@fashionstore.com",
+    "schedule": "Mon-Fri: 10:00-19:00, Sat-Sun: 11:00-18:00",
+    "departments": "Premium Wear, Accessories, Footwear"
+  },
+  {
+    "id": "9",
+    "name": "Urban Thread Bila Tserkva",
+    "address": "Bila Tserkva, Yaroslaviv Val St, 24",
+    "coordinates": {
+      "latitude": "49.7961",
+      "longitude": "30.1311"
+    },
+    "shortDescription": "Popular Urban Thread in Bila Tserkva.",
+    "description": "Known for its diverse range of products, from formal wear to casual styles. Our store in Bila Tserkva is a destination for both everyday clothing and special occasion outfits. We continuously update our collections to reflect the latest fashion trends. Visit us to explore the best in men's and women's fashion.",
+    "images": {
+      "mainImg": "AdobeStock_982230239_Preview.jpeg",
+      "secondaryImg": "AdobeStock_506100750_Preview.jpeg",
+      "thirdImg": "AdobeStock_311228384_Preview.jpeg",
+      "fourthImg": "AdobeStock_592655984_Preview.jpeg",
+      "fifthImg": "AdobeStock_982229741_Preview.jpeg"
+    },
+    "phone": "+380443210987",
+    "email": "bilatserkva@fashionstore.com",
+    "schedule": "Mon-Sat: 09:00-19:00, Sun: 10:00-17:00",
+    "departments": "Formal Wear, Casual Wear, Accessories"
+  },
+  {
+    "id": "10",
+    "name": "Urban Thread Vyshhorod",
+    "address": "Vyshhorod, Kyivska St, 14",
+    "coordinates": {
+      "latitude": "50.5840",
+      "longitude": "30.4898"
+    },
+    "shortDescription": "Contemporary Urban Thread in Vyshhorod.",
+    "description": "Combining modern fashion trends with high-quality materials. Our store offers a curated selection of both casual and formal wear for fashion-conscious individuals. Discover new arrivals every season, designed to match the latest trends in global fashion. Visit Urban Thread Vyshhorod for a unique shopping experience.",
+    "images": {
+      "mainImg": "AdobeStock_3059284524_Preview.jpeg",
+      "secondaryImg": "AdobeStock_311228384_Preview.jpeg",
+      "thirdImg": "AdobeStock_276475514_Preview.jpeg",
+      "fourthImg": "AdobeStock_714112906_Preview.jpeg",
+      "fifthImg": "AdobeStock_637717707_Preview.jpeg"
+    },
+    "phone": "+380445678912",
+    "email": "vyshhorod@fashionstore.com",
+    "schedule": "Mon-Fri: 10:00-19:00, Sat: 11:00-18:00, Sun: Closed",
+    "departments": "Men's Clothing, Women's Clothing, Accessories"
+  }
+]
