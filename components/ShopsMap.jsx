@@ -3,25 +3,12 @@
 import {AdvancedMarker, APIProvider, InfoWindow, Map, Pin} from '@vis.gl/react-google-maps';
 import Image from "next/image";
 import Link from "next/link";
-import {useEffect, useState} from "react";
+import { useState} from "react";
 
 const ShopsMap = ({shopsList}) => {
 
-    useEffect( () => {
+    console.log((`${process.env.NEXT_PUBLIC_API_URL}/api/stores`));
 
-        async function loadMaps() {
-            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/stores`);
-
-
-            console.log(22222222);
-            console.log((`${process.env.NEXT_PUBLIC_API_URL}/api/stores`));
-            console.log(await response.json());
-
-        }
-
-        loadMaps();
-
-    }, [])
 
     const [activeStore, setActiveStore] = useState(false);
 
