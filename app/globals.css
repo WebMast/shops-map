@@ -10,7 +10,6 @@
     position: fixed;
     display: flex;
     justify-content: center;
-    padding: 120px 24px 160px 24px;
     pointer-events: none;
 }
 
@@ -51,6 +50,11 @@
     border:none !important;
 }
 
+.gm-style-iw.gm-style-iw-c {
+    max-height: none !important;
+    max-width: none !important;
+}
+
 .slide-menu {
     position: absolute;
     left: 20px;
@@ -80,12 +84,6 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 640px) {
-    .main {
-        padding: 0;
-    }
-}
-
 .field {
     @apply w-full p-1 rounded border border-transparent;
 }
@@ -99,7 +97,7 @@
 }
 
 .app {
-    @apply relative z-10 flex justify-between items-center flex-col max-w-[1300px] mx-auto px-8 min-h-screen ;
+    @apply relative z-10 flex justify-between items-center flex-col max-w-[1300px] mx-auto px-4 md:px-8 min-h-screen ;
 }
 
 .black_btn {

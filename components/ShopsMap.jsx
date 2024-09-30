@@ -34,7 +34,7 @@ const ShopsMap = ({shopsList}) => {
                     {activeStore && <InfoWindow
                         position={{lat: Number(activeStore.coordinates.latitude) + 0.04, lng: Number(activeStore.coordinates.longitude)}}
                         onCloseClick={() => setActiveStore(null)}>
-                        <div className="w-48 text-black text-center">
+                        <div className="w-48 text-black text-center min-h-52">
                             <Image src={`/store/${activeStore.images.mainImg}`} width={180} height={90} className="mx-auto"
                                    alt={activeStore.name}/>
                             <p className="mt-4 font-semibold uppercase">{activeStore.name}</p>

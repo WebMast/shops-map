@@ -1,32 +1,27 @@
-import { promises as fs } from 'fs';
-import path from 'path';
+import { MongoClient } from 'mongodb';
 
 export async function POST(req) {
+    const uri = process.env.MONGODB_URI;
+    const client = new MongoClient(uri);
+
     try {
         const data = await req.json();
-        const filePath = path.join(process.cwd(), 'data', 'formData.json');
-        let existingData = [];
+        await client.connect();
+        const database = client.db('contactUsDatabase');
+        const collection = database.collection('formData');
 
-        try {
-            const fileContent = await fs.readFile(filePath, 'utf-8');
-            existingData = JSON.parse(fileContent);
-        } catch (error) {
-            console.log('Файл ще не існує, створюємо новий.');
-        }
+        await collection.insertOne(data);
 
-        existingData.push(data);
-
-        await fs.writeFile(filePath, JSON.stringify(existingData, null, 2));
-
-        return new Response(JSON.stringify({ message: 'Дані успішно збережені' }), {
+        return new Response(JSON.stringify({ message: 'Data was successfully saved' }), {
             status: 200,
             headers: { 'Content-Type': 'application/json' },
         });
     } catch (error) {
-        console.error('Помилка при записі даних:', error);
-        return new Response(JSON.stringify({ message: 'Не вдалося зберегти дані' }), {
+        return new Response(JSON.stringify({ message: 'Data saving failed' }), {
             status: 500,
             headers: { 'Content-Type': 'application/json' },
         });
+    } finally {
+        await client.close();
     }
 }
