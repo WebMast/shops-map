@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -63,7 +62,7 @@
     background: #fff;
     transform: translateY(-20%);
     opacity: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     z-index: 5;
     padding: 20px;
     border-radius: 5px;

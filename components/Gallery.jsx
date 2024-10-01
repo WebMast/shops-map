@@ -14,7 +14,7 @@ const Gallery = ({images, label}) => {
                 </div>
                 <figcaption className="text-right text-xs mt-1">{label}</figcaption>
             </figure>
-            <div className="gallery-thumbnails flex justify-center gap-4">
+            <div className="gallery-thumbnails flex justify-center gap-4 mt-2">
                 {Object.values(images).map(image => {
                     return <div key={image} className={`w-20 h-20 relative border ${image === activeImage ? 'border-[#ea580c]' : 'border-transparent'}`}
                                 onClick={() => setActiveImage(image)}>
