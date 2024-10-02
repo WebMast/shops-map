@@ -13,6 +13,7 @@ const ContactUsPage = () => {
     });
     const [errors, setErrors] = useState({});
     const [isFormSubmitted, setIsFormSubmitted] = useState();
+    const [isSubmitting, setIsSubmitting] = useState(false);
     const validateForm = (values) => {
         let formErrors = {};
 
@@ -64,6 +65,8 @@ const ContactUsPage = () => {
         }
 
         try {
+            setIsSubmitting(true)
+
             const response = await fetch("/api/contact-us", {
                 method: "POST",
                 body: JSON.stringify(formValues),
@@ -79,7 +82,7 @@ const ContactUsPage = () => {
                     message: 'Form was submitted successfully!'
                 });
 
-                setTimeout(() => {router.push("/")}, 2000);
+                setTimeout(() => {router.push("/")}, 1500);
             } else {
                 setIsFormSubmitted({
                     status: false,
@@ -92,6 +95,8 @@ const ContactUsPage = () => {
                 status: false,
                 message: 'Form submission failed!'
             });
+        } finally {
+            setIsSubmitting(false)
         }
     };
 
@@ -150,7 +155,7 @@ const ContactUsPage = () => {
                     {errors.message && <p className="error">{errors.message}</p>}
                 </div>
                 <div className="text-right">
-                    <button type="submit" className="black_btn">Send A Message</button>
+                    <button disabled={isSubmitting} type="submit" className="black_btn">Send A Message</button>
                 </div>
             </form>
         </section>
