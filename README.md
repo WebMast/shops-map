@@ -35,6 +35,10 @@ These messages are stored in MongoDB Atlas.
     npm install
     ```
 
+The project will be available at: http://localhost:3000
+The project also deployed on Vercel. You can access it via this link: https://shops-map.vercel.app/.
+All the keys inside the .env are only the testing ones.
+
 ## Running the Project
 
 ### Development Mode
@@ -43,7 +47,3 @@ To run the project locally in development mode:
 
 ```bash
 npm run dev
-
-The project will be available at: http://localhost:3000
-The project is deployed on Vercel. You can access it via this link: https://shops-map.vercel.app/.
-All the keys inscide the .env are only the testing ones.
