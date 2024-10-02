@@ -34,6 +34,8 @@ These messages are stored in MongoDB Atlas.
     ```bash
     npm install
     ```
+   
+4. Rename .env.example to .env.local (All the values inside the .env.example are used just for TESTING PURPOSES BUT NOT FOR PRODUCTION)
 
 The project will be available at: http://localhost:3000
 The project also deployed on Vercel. You can access it via this link: https://shops-map.vercel.app/.
