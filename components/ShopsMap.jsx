@@ -3,7 +3,7 @@
 import {AdvancedMarker, APIProvider, InfoWindow, Map, Pin} from '@vis.gl/react-google-maps';
 import Image from "next/image";
 import Link from "next/link";
-import { useState} from "react";
+import {useState} from "react";
 
 const ShopsMap = ({shopsList}) => {
     const [activeStore, setActiveStore] = useState(false);

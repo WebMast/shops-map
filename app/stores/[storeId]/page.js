@@ -1,13 +1,17 @@
 import Gallery from "@/components/Gallery";
 
 async function fetchStoreData(storeId) {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/stores/${storeId}`);
+    try {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/stores/${storeId}`);
 
-    if (!res.ok) {
-        throw new Error('Failed to fetch store data');
+        if (!res.ok) {
+            console.error('Failed to fetch store data');
+        }
+
+        return await res.json();
+    } catch (error) {
+        console.error('Error fetching store data:', error);
     }
-
-    return res.json();
 }
 
 const formatSchedule = (schedule) => {
@@ -36,8 +40,8 @@ const StoreDetail = async ({params}) => {
                 <div className="md:w-1/2">
                     <h2 className="text-2xl font-bold md:mt-12 mb-2 text-[#ea580c]">Working Schedule</h2>
                     <p>
-                        {formatSchedule(store.schedule).map(date => {
-                            return <span key={Date.now()} className="block mb-1">{date}</span>
+                        {formatSchedule(store.schedule).map((date, index) => {
+                            return <span key={index} className="block mb-1">{date}</span>
                         })}
                     </p>
                     <p><strong>Departments: </strong>{store.departments}</p>

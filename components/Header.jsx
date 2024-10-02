@@ -9,6 +9,7 @@ const Header = () => {
     const toggleMenu = () => {
         setMenuOpen(prevState => !prevState);
     }
+
     return (
         <header className="flex justify-between items-center relative w-full py-4 text-black mb-8">
             <div className="relative z-10 text-2xl cursor-pointer" onClick={toggleMenu}>&#9776;</div>

@@ -8,6 +8,7 @@ const fetchStores = async () => {
             console.error('Failed to fetch stores data');
             return;
         }
+
         return await response.json();
     } catch (error){
         console.error(error);

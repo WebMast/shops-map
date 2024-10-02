@@ -1,4 +1,4 @@
-import { MongoClient } from 'mongodb';
+import {MongoClient} from 'mongodb';
 
 export async function POST(req) {
     const uri = process.env.MONGODB_URI;
